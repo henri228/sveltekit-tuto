@@ -14,6 +14,8 @@ export const routes = [
 	// src/routes/index.svelte
 	[/^\/$/, [c[0], c[2]], [c[1]]],
 
+	,
+
 	// src/routes/guides/index.svelte
 	[/^\/guides\/?$/, [c[3], c[4]], []],
 
