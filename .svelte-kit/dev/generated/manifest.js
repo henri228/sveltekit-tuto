@@ -16,8 +16,12 @@ export const routes = [
 
 	,
 
+	,
+
 	// src/routes/guides/index.svelte
 	[/^\/guides\/?$/, [c[3], c[4]], []],
+
+	,
 
 	// src/routes/guides/[id].svelte
 	[/^\/guides\/([^/]+?)\/?$/, [c[3], c[5]], [], (m) => ({ id: d(m[1])})],
